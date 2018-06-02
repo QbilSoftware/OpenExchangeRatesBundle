@@ -5,6 +5,11 @@
     "require": {
         "guzzlehttp/guzzle": "^6.3"
     },
+    "autoload": {
+        "psr-4": {
+            "Qbil\\OpenExchangeRateBundle\\": ""
+        }
+    },
     "license": "MIT",
     "authors": [
         {
