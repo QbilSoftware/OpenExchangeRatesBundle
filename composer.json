@@ -1,0 +1,16 @@
+{
+    "name": "qbil/open-exchange-rate-bundle",
+    "description": "Symfony 2.8+ compatible bundle for Open Exchange Rates. Open Exchange Rates provides a simple, lightweight and portable JSON API with live and historical foreign exchange rates",
+    "type": "symfony-bundle",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Faizan Akram",
+            "email": "hello@faizanakram.me"
+        }
+    ],
+    "minimum-stability": "stable"
+}

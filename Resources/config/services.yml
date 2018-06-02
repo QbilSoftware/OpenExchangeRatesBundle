@@ -1,0 +1,4 @@
+services:
+    qbil_open_exchange_rate.exchange:
+        class: Qbil\OpenExchangeRateBundle\Domain\Exchange
+        arguments: ["%qbil_open_exchange_rate.app_id%", "%qbil_open_exchange_rate.base_currency%"]
