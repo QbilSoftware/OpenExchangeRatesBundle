@@ -56,6 +56,10 @@ class Exchange
             $this->options['query']['symbols'] = $arguments[0]['symbols'] ?: $arguments[0]['currency'];
         }
 
+        if ($arguments[0]['base']) {
+            $this->options['query']['base'] = $arguments[0]['base'];
+        }
+
         if ("historical" === $name) {
             if (!$arguments[0]['date']) {
                 throw new \InvalidArgumentException('Required parameter `date` is missing');
