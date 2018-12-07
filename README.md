@@ -7,7 +7,7 @@ Symfony 2.8 + compatible bundle for fetching foreign exchange rates from openexc
 2) Run `composer update`
 3) Register bundle by adding following line to `AppKernel.php`
 
-        new Qbil\OpenExchangeRatesBundle\QbilOpenExchangeRatesBundle()
+        new Qbil\OpenExchangeRateBundle\QbilOpenExchangeRatesBundle()
     
 4) Add `qbil_open_exchange_rates.app_id: APP_ID` and `qbil_open_exchange_rates.base_currency: BASE_CURRENCY_SYMBOL` to `parameters.yml` 
 where APP_ID is you app_id (See https://docs.openexchangerates.org/docs/authentication for more info about app_id) 
