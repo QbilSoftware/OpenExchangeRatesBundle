@@ -1,6 +1,6 @@
 <?php
 
-namespace Qbil\OpenExchangeRateBundle;
+namespace Qbil\OpenExchangeRatesBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

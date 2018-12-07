@@ -1,6 +1,6 @@
 <?php
 
-namespace Qbil\OpenExchangeRateBundle\DependencyInjection;
+namespace Qbil\OpenExchangeRatesBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
