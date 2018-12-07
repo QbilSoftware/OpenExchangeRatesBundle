@@ -1,13 +1,14 @@
 {
-    "name": "qbil/open-exchange-rate-bundle",
-    "description": "Symfony 2.8+ compatible bundle for Open Exchange Rates. Open Exchange Rates provides a simple, lightweight and portable JSON API with live and historical foreign exchange rates",
+    "name": "qbil-software/openexchangeratesbundle",
+    "description": "Symfony 2.8 + compatible bundle for fetching foreign exchange rates from openexchangerates.com. Symfony wrapper for `qbil-software/openexchangerates` package",
     "type": "symfony-bundle",
     "require": {
-        "guzzlehttp/guzzle": "^6.3"
+        "guzzlehttp/guzzle": "^6.3",
+        "qbil-software/openexchangerates": "^1.0"
     },
     "autoload": {
         "psr-4": {
-            "Qbil\\OpenExchangeRateBundle\\": ""
+            "Qbil\\OpenExchangeRatesBundle\\": ""
         }
     },
     "license": "MIT",
