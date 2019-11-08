@@ -1,6 +1,6 @@
 # Open exchange rates bundle
 
-Symfony 2.8 + compatible bundle for fetching foreign exchange rates from openexchangerates.com. Symfony wrapper for `qbil-software/openexchangerates` package
+Symfony 4+ compatible bundle for fetching foreign exchange rates from openexchangerates.com. Symfony wrapper for `qbil-software/openexchangerates` package
 
 **Installation**
 1) Add `qbil-software/openexchangeratesbundle` to `composer.json` file
@@ -17,12 +17,7 @@ Default base currency is USD. If you dont wish to change base currency, set it t
 
 **Usage**
 
-Open exchange rates bundle comes with a service with id `qbil_open_exchange_rates.exchange`, that means you can access it anywhere where you have access to service container or you can inject it to another services via Dependency Injection provided by symfony.
-
-For example,
-
-In you controller you can get instance of `qbil_open_exchange_rates.exchange` service by `$this-get('qbil_open_exchange_rates.exchange')`
-
+Open exchange rates bundle comes with a service with id `Qbil\OpenExchangeRates\Exchange`, which can be injected into another services via dependency injection provided by symfony.
 
 **Methods**
 
